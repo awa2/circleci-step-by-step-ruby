@@ -1,9 +1,9 @@
 version: 2
-jobs:
-  build:
-    docker:
+jobs: 
+  build: 
+    docker: 
       - image: circleci/ruby:2.6.3-stretch-code
 
-    step:
+    step: 
       - checkout
       - run: echo "Hello, CircleCI"
